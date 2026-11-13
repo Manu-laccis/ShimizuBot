@@ -3,8 +3,8 @@ const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = requi
 const pino = require('pino');
 
 const BOT_NAME = 'ShimizuBot';
-const OWNER_NAME = 'Your Name';
-const PAIRING_NUMBER = '393533685212';
+const OWNER_NAME = 'RyotaNaoShimizu';
+const PAIRING_NUMBER = process.env.PAIRING_NUMBER;
 const PREFIX = '.';
 const VERSION = '1.0.0';
 const MODE = 'public';
