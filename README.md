@@ -1,0 +1,2 @@
+# ShimizuBot
+Maaaaaaaa boh
