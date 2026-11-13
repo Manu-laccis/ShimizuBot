@@ -1,6 +1,8 @@
 // 👑 ShimizuBot - index.js
 const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
 const pino = require('pino');
+const http = require('http');
+http.createServer((req,res)=>res.end('ShimizuBot online')).listen(process.env.PORT || 3000);
 
 const BOT_NAME = 'ShimizuBot';
 const OWNER_NAME = 'RyotaNaoShimizu';
